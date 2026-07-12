@@ -1,0 +1,81 @@
+{
+  "chain_name": "rkm",
+  "status": "upcoming",
+  "network_type": "devnet",
+  "website": "https://www.radiokociamuzyka.online",
+  "pretty_name": "rkm",
+  "chain_type": "cosmos",
+  "chain_id": "rkm",
+  "bech32_prefix": "cosmos",
+  "daemon_name": "rkmd",
+  "node_home": "~/.rkm",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "rkm",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "rkm"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/radiokociamuzyka/radio-kittens-meowings.git",
+    "genesis": {
+      "genesis_url": ""
+    },
+    "recommended_version": "v1.0.0",
+    "compatible_versions": [
+      "v1.0.0"
+    ],
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.38.21"
+    },
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.6"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v10.4.0"
+    },
+    "cosmwasm": {
+      "version": "v0.60.1",
+      "enabled": true
+    }
+  },
+  "description": "",
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://rpc.radiokociamuzyka.online",
+        "provider": "localhost"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://rest.radiokociamuzyka.online",
+        "provider": "localhost"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.radiokociamuzyka.online:9090",
+        "provider": "localhost"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "chain_name": "rkm",
+  "assets": [
+    {
+      "description": "The native token of the rkm chain",
+      "denom_units": [
+        {
+          "denom": "rkm",
+          "exponent": 0
+        }
+      ],
+      "base": "rkm",
+      "name": "rkm",
+      "display": "",
+      "symbol": "RKM",
+      "logo_URIs": {
+        "png": "https://ignite.com/favicon.ico",
+        "svg": "https://ignite.com/favicon.ico"
+      },
+      "socials": {
+        "website": "https://www.radiokociamuzyka.pl",
+        "twitter": "https://x.com/radiokociamuzyka"
+      },
+      "type_asset": "sdk.coin"
+    }
+  ]
+}
