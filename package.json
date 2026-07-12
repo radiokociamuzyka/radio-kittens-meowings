@@ -1,0 +1,29 @@
+{
+  "name": "radio-kittens-meowings",
+  "version": "0.0.1",
+  "description": "rkm blockchain",
+  "keywords": [
+    "rkm"
+  ],
+  "homepage": "https://github.com/radiokociamuzyka/radio-kittens-meowings#readme",
+  "bugs": {
+    "url": "https://github.com/radiokociamuzyka/radio-kittens-meowings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiokociamuzyka/radio-kittens-meowings.git"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Sett Sarverott",
+  "type": "module",
+  "main": "vue/src/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "task test"
+  },
+  "devDependencies": {
+    "dockerode": "^5.0.1"
+  }
+}
