@@ -2,4 +2,4 @@ apps:
     - path: github.com/ignite/apps/wasm
     - path: github.com/ignite/apps/evm
     - path: github.com/ignite/apps/spaceship
-    - path: github.com/ignite/apps/hermes
+    - path: github.com/ignite/apps/connect
