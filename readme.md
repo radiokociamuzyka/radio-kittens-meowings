@@ -1,4 +1,7 @@
-# rkm
+# R.K.M - Radio Kittens Meowings
+
+[![.github/workflows/release.yml](https://github.com/radiokociamuzyka/radio-kittens-meowings/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/radiokociamuzyka/radio-kittens-meowings/actions/workflows/release.yml)
+
 **rkm** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
 
 ## Get started
