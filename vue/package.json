@@ -1,24 +1,10 @@
 {
-  "name": "@ignt/vue-template",
-  "version": "1.0.8",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "run-p type-check \"build-only {@}\" --",
-    "build-only": "vite build",
-    "dev": "vite",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "pnpm:devPreinstall": "node preinstall.cjs",
-    "prepare": "node prepare.cjs",
-    "preview": "vite preview",
-    "type-check": "vue-tsc --build"
-  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "@tanstack/vue-query": "^5.81.2",
     "crypto-js": "^4.2.0",
     "pinia": "^3.0.3",
+    "rkm-client-ts": "file:../ts-client",
     "tailwindcss": "^4.1.10",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
@@ -56,5 +42,20 @@
     "vite-plugin-vue-devtools": "^7.7.7",
     "vitest": "^3.2.4",
     "vue-tsc": "^2.2.10"
-  }
+  },
+  "name": "@ignt/vue-template",
+  "private": true,
+  "scripts": {
+    "build": "run-p type-check \"build-only {@}\" --",
+    "build-only": "vite build",
+    "dev": "vite",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "pnpm:devPreinstall": "node preinstall.cjs",
+    "prepare": "node prepare.cjs",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build"
+  },
+  "type": "module",
+  "version": "1.0.8"
 }
