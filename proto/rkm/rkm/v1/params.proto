@@ -1,0 +1,13 @@
+syntax = "proto3";
+package rkm.rkm.v1;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "rkm/x/rkm/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "rkm/x/rkm/Params";
+  option (gogoproto.equal) = true;
+}

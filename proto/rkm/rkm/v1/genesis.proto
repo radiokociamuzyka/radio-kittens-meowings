@@ -1,0 +1,17 @@
+syntax = "proto3";
+package rkm.rkm.v1;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "rkm/rkm/v1/params.proto";
+
+option go_package = "rkm/x/rkm/types";
+
+// GenesisState defines the rkm module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}
