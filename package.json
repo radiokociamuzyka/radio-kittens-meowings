@@ -5,7 +5,7 @@
   "keywords": [
     "rkm"
   ],
-  "homepage": "https://github.com/radiokociamuzyka/radio-kittens-meowings#readme",
+  "homepage": "https://radiokociamuzyka.readthedocs.io/",
   "bugs": {
     "url": "https://github.com/radiokociamuzyka/radio-kittens-meowings/issues"
   },
@@ -24,6 +24,24 @@
     "test": "task test"
   },
   "devDependencies": {
-    "dockerode": "^5.0.1"
+    "@go-task/cli": "^3.50.0",
+    "@hyperweb/telescope": "^2.2.4",
+    "@ngrok/ngrok": "^1.7.0",
+    "@starship-ci/cli": "^4.0.0",
+    "arweave": "^1.15.7",
+    "composerize": "^1.7.6",
+    "create-cosmos-app": "^2.4.4",
+    "create-hyperweb-app": "^0.0.10",
+    "create-interchain-app": "^2.4.2",
+    "decomposerize": "^1.4.4",
+    "dockerode": "^5.0.1",
+    "electron": "^43.1.0",
+    "helia": "^7.1.0",
+    "husky": "^9.1.7",
+    "octokit": "^5.0.5",
+    "skills": "^1.5.16",
+    "ssh2": "^1.17.0",
+    "vitest": "^4.1.10",
+    "yarn": "^1.22.22"
   }
 }
